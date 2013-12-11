@@ -1,0 +1,13 @@
+<config>
+	<files>
+		<dir path="d:\temp" filter="*.*" />
+	</files>
+	<recipients>
+		<recipient name="A" email="ugoren@gmail.com" regex="*"/>
+		<recipient name="C" email="ugoren@gmail.com" regex="([A-Za-z0-9\-]+).csv"/>
+		<recipient name="X" email="ugoren@gmail.com" regex="([A-Za-z0-9\-]+).xls"/>
+	</recipients>
+	<message subject="ok">
+		Hi
+	</message>
+</config>
